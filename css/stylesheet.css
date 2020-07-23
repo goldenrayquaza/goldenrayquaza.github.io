@@ -1,0 +1,195 @@
+/* General style for the page and/or if pictures cant be loaded*/
+body{
+    font-family: sans-serif, Arial, Helvetica;
+    color: #ffffff;
+    background-color: #000000;
+    text-align: center;
+    margin: 0;
+}
+/* Apply to all elements */
+*{
+    box-sizing: border-box;
+}
+/*==========================================================================header=====================================================================*/
+/* Goldenrayquaza's Lair text*/
+header h1{
+    font-size: 200%;
+    margin: 0.5% 0 0 0;
+    padding: 0;
+    font-weight: bold;
+}
+/* the entire non-collapsed navbar */
+.navbar .navbar-collapse{
+    margin: 0;
+    padding: 0;
+}
+.navbar .navbar-brand{
+    font-weight: bold;
+}
+/* each individual element in the nav bar */
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link{
+    color: #ffffff;
+    font-size: 120%;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navbar .navbar-toggler{
+    border: 1px solid #beadad;
+}
+/* hover, focus, current nav element */
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover, .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:focus, 
+.navbar .navbar-collapse .navbar-nav .nav-item .active{
+    color: #9e9898;
+    border-radius: 0;
+} 
+/*========================================================================footer======================================================================*/
+/* general footer */
+footer{
+    margin-top: 1%;
+    line-height: 1.5;
+    font-weight: bold;
+}
+/* horizontal rule in footer */
+footer hr{
+    border: solid 2px #ffffff;
+    margin: 0;
+}
+/* created by goldenrayquaza text */
+footer .left{
+    float: left;
+    padding-top: 0.5%;
+    width: 40%;
+}
+/* text on right side */
+footer .right{
+    float: left;
+    width: 60%;
+}
+/* the copy right */
+footer .right small{
+    font-size: 80%;
+}
+/*===========================================================================main content===============================================================*/
+main{
+    font-size: 150%;
+    line-height: 1.2;
+    color: #ffffff;
+} 
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+main h2{
+    line-height: 1;
+    font-size: 350%;
+}
+main section h3{
+    font-size: 250%;
+    margin: 0;
+}
+main hr{
+    margin: 0;
+    border: 2px solid #ffffff;
+}
+main section p{
+    padding: 0.7% 0%;
+    margin: 0;
+    font-size: 110%;
+    font-weight: bold;
+}
+main section p a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bolder;
+}
+main section p a:hover{
+    color: #ffffff;
+}
+main #warrior{
+    background: url(https://d3b4yo2b5lbfy.cloudfront.net/wp-content/uploads/wallpapers/GW2Warrior02-1920x1200.jpg) center no-repeat;
+    background-size: cover;
+}
+main #guardian{
+    background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages4.alphacoders.com%2F264%2F264368.jpg&f=1&nofb=1) top no-repeat;
+    background-size: cover;
+}
+main #revenant{
+    background: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fi.imgur.com%2FQ5X1hMQ.jpg&f=1&nofb=1) center no-repeat;
+    background-size: cover;
+}
+main #ranger{
+    background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd3b4yo2b5lbfy.cloudfront.net%2Fwp-content%2Fuploads%2Fwallpapers%2FGW2_RangerWallpaper02-1920x1080.jpg&f=1&nofb=1) top right no-repeat;
+    background-size: cover;
+}
+main #thief{
+    background: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fgw2101.gtm.guildwars2.com%2Fglobal%2Fincludes%2Fimages%2Fwallpapers%2FGuildWars2_ThiefWallpaper01_1920x1080.jpg&f=1&nofb=1) top no-repeat;
+    background-size: cover;
+}
+main #engineer{
+    background: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.game-art-hq.com%2Fwp-content%2Fuploads%2F2015%2F12%2FGuild-Wars-2-Engineer-Profession-Wallpaper.jpg&f=1&nofb=1) top center no-repeat;
+    background-size: cover;
+}
+main #mesmer{
+    background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.wallpapersafari.com%2F15%2F21%2Fz3csGl.jpg&f=1&nofb=1) top left no-repeat;
+    background-size: cover;
+}
+main #elementalist{
+    background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd3b4yo2b5lbfy.cloudfront.net%2Fwp-content%2Fuploads%2Fwallpapers%2FElementalistMaleWallpaper-1920x1080.jpg&f=1&nofb=1) top center no-repeat;
+    background-size: cover;
+}
+main #necromancer{
+    background: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpapercave.com%2Fwp%2FceRwmQd.jpg&f=1&nofb=1) top right no-repeat;
+    background-size: cover;
+}
+.bgText{
+    background-color: rgba(0,0,0,0.6);
+    color: #ffffff;
+}
+@media screen and (min-width:0px) and (max-width:575px){
+    .navbar .navbar-brand{
+        font-size: 100%;
+    }
+    main{
+        font-size: 100%;
+    }
+    main h2{
+        font-size: 160%;
+    }
+    main section h3{
+        font-size: 140%;
+    }
+    footer .right{
+        font-size: 90%;
+    }
+}
+@media screen and (min-width:576px) and (max-width:767px){
+    .navbar .navbar-brand{
+        font-size: 100%;
+    }
+    main{
+        font-size: 120%;
+    }
+    main h2{
+        font-size: 250%;
+    }
+    main section h3{
+        font-size: 140%;
+    }
+    footer .right{
+        font-size: 90%;
+    }
+}
+@media screen and (min-width:768px) and (max-width:991px){
+    main{
+        font-size: 130%;
+    }
+    main h2{
+        font-size: 250%;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1199px){
+
+}
+@media screen and (min-width:1200px){
+
+}
